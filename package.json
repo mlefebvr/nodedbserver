@@ -1,13 +1,14 @@
 {
   "name": "nodedbserver",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A very simple proof-of-concept in-memory key/value database written in Javascript",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "dev": "nodemon ."
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["server", "PoC", "key/value", "database"],
+  "author": "Martin Lefebvre <dadexter@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "uuid": "^8.3.2"

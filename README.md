@@ -1,5 +1,5 @@
 # Node DB Server
-A very simple proof-of-concept in-memory key-value database written in Javascript
+A very simple proof-of-concept in-memory key/value database written in Javascript
 
 The server listens on port 8000 by default for client connections, and uses the port 18000 for peer-to-peer connections (client port + 10000)
 
